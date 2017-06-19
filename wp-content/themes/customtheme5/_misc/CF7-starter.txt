@@ -1,0 +1,18 @@
+CF7 STARTER
+
+**FORM
+
+<label>Name<span>*</span></label>[text* your-name placeholder "Name"]
+<label>Email<span>*</span></label>[email* your-email placeholder "Email"]
+<label>Phone</label>[tel your-phone placeholder "phone"]
+<label>Message/question</label>[textarea* message placeholder "Message/question"]
+[recaptcha here]
+[submit "Send"]
+
+**BODY
+
+From: [your-name] <[your-email]>
+Phone: [your-phone]
+
+Message:
+[message]
